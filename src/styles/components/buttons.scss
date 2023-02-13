@@ -1,0 +1,15 @@
+.button{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+
+    &--primary{
+        color: #fff;
+        background-color: #4f2ac3;
+
+        &:hover{
+            background-color: lighten(#4f2ac3, 10%);
+        }
+    }
+}

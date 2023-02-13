@@ -1,11 +1,12 @@
 @use './reset';
 @use './_hero';
+@use './infos__bar';
+@use './components/buttons';
 
 .container{
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-
     
     @media (max-width:640px) {
         .container{
