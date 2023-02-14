@@ -7,9 +7,17 @@
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavoalmei/ebach_tech_news.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavoalmei/ebach_tech_news/issues"
+  },
+  "homepage": "https://github.com/gustavoalmei/ebach_tech_news#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3",
